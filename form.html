@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+<title>
+    Form Page
+</title> 
+<style>
+div1
+{
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+
+}
+div2{
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+label{
+    display: block;
+    padding: 10PX;
+   
+}
+input {
+    width: auto;
+   
+    padding: 10PX 10PX;
+    margin: 0PX 10PX;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<form>
+<div id = "div1">
+<Label>Name</Label>
+<input type="Text" placeholder= "Full Name" text ="Name" name = userid >
+<BR>
+<label>Password</label>
+<input type="password" placeholder="Password here" name = pwd>
+<BR><BR>
+<label for="countries">Select Country</label>
+    <input name = "datalist" list = "countries" placeholder = "Countries">
+    <datalist id = "countries" aria-autocomplete="list">
+        <option value="india" selected>India</option>
+        <option value="nepal" >Nepal</option>
+        <option value="singapore">Singapore</option>
+    </datalist>
+    <BR>
+</div>
+<div>
+
+<div id = "div2">
+<label for="login">Login </label>
+<input type="button" id="login"text = "Login" onclick= "alert('Login Successful' )" >
+</div>
+</form>
+
+</body>
+
+</html>
